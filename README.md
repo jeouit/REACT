@@ -1,6 +1,6 @@
 # REACT
 COURS ET TP REACT
-le lien de LAPI backeg sur githib est : https://github.com/jeouit/api-backend-main/tree/main
+le lien de l'API backend sur github est : https://github.com/jeouit/api-backend-main/tree/main
 
 
 la documentation de API Backend est 
