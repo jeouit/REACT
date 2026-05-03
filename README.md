@@ -1,17 +1,19 @@
 # REACT
 COURS ET TP REACT
+le lien de LAPI backeg sur githib est : https://github.com/jeouit/api-backend-main/tree/main
+
+
 la documentation de API Backend est 
+A- Cette API est exposé en deux modules: Article and Customer, via REST. Ci-dessous les endpoints:
 
-A- This is a REST API that exposes two models, Article and Customer, via REST. Here are the endpoints:
-
-For customers :
+pour customers : les endpoint sans accessibles sans authentification
 - Get all customers : localhost:8080/customers
 - Get customer by id : /customers/{id}
 - Post : /customers
 - Put : /customers/{id}
 - Delete : /customers/{id}
 
-For articles :
+Pour articles : il faut une authentification pour accéder à article, c'est un plus dans le TP qui veux utiliser jwt
 - Get all articles : /articles
 - Get customer by id : /articles/{id}
 - Post : /articles
@@ -19,8 +21,8 @@ For articles :
 - Delete : /articles/{id}
 
 B- Security : 
-/customers is not secured. 
-/articles is secured by jwt.
+/customers est non sécurisé 
+/articles est sécurisé avec jwt.
 
 C- For authentication :
 There are two users : admin/admin and client/client
